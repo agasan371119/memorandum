@@ -6,3 +6,6 @@ print(dc)
 
 #keyを指定してvalueの値を出力する
 print(dc["apple"])
+
+#辞書の長さを取得
+print(len(dc))
