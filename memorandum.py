@@ -18,3 +18,7 @@ dc_enpty = {}
 dc["lemon"] = 400
 
 print(dc)
+
+#辞書のkye.valueのみ取得
+print(dc.keys())
+print(dc.values())
