@@ -9,3 +9,12 @@ print(dc["apple"])
 
 #辞書の長さを取得
 print(len(dc))
+
+#空の辞書
+dc_enpty = {}
+
+#辞書に追加
+
+dc["lemon"] = 400
+
+print(dc)
