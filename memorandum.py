@@ -55,3 +55,8 @@ print(a)
 b = {x: x*2 for x in range(10)}
 
 print(b)
+
+#２重リスト
+for i in range(10):
+  for j in range(5):
+    print(i,j)
