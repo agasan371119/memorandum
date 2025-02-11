@@ -9,7 +9,7 @@ def cnt(x):
 
 print(cnt(3))
 
-def num_and_cnt(x):
+def num_and_cnt(x, y):
   return num(cnt(x))
 
-print(num_and_cnt(3))
+print(num_and_cnt(3,2))
