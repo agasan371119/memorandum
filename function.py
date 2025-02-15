@@ -20,7 +20,6 @@ def num1_num2(a, b):
 print(num1_num2(5, 6))
 
 def loop(z):
-  for i in range(z):
-    print(i)
+  print(z)
 
 print(loop(int(input())))
