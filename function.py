@@ -19,7 +19,7 @@ def num1_num2(a, b):
 
 print(num1_num2(5, 6))
 
-def loop(z):
-  print(z)
+def loop():
+  print("正解")
 
-print(loop(int(input())))
+loop()
