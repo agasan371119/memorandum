@@ -57,16 +57,14 @@ b = {x: x*2 for x in range(10)}
 print(b)
 
 #２重リスト
-for i in range(10):
-  for j in range(5):
-    print(i,j)
+team_a = ["勇者", "魔獣使い", "剣士"]
+team_b = ["健闘", "蛇拳", "酔拳"]
 
+teams = [team_a, team_b]
+
+print(teams)
 #多重リスト 内包表記
 
 num = [[x for x in range(3)] for i in range(5)]
 
 print(num)
-
-for i in range(3):
-  for j in range(5):
-    print(num[i][j])
