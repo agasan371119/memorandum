@@ -68,4 +68,5 @@ for i in range(len(teams)):
 
 num = [[x for x in range(3)] for i in range(5)]
 
-print(num)
+for i in num:
+  print(i)
