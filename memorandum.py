@@ -62,6 +62,9 @@ team_b = ["健闘", "蛇拳", "酔拳"]
 
 teams = [team_a, team_b]
 
+for i in team_a:
+  print(i)
+  
 for i in range(len(teams)):
   print(len(teams[i]))
 #多重リスト 内包表記
