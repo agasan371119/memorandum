@@ -16,7 +16,7 @@ dc_enpty = {}
 #辞書に追加
 
 dc["lemon"] = 10800
-dc["lemon"] = 100
+dc["melon"] = 100 * 300
 
 print(dc)
 
