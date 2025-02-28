@@ -1,6 +1,6 @@
 #辞書機能の備忘録として
 #辞書の基本形
-dc = {"apple": 300, "banana": 500, "melon": 10000}
+dc = {"apple": 200, "banana": 500, "melon": 10000}
 
 print(dc)
 
