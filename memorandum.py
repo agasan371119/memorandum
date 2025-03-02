@@ -1,46 +1,45 @@
 #辞書機能の備忘録として
 #辞書の基本形
-dc = {"apple": 2000, "banana": 500, "melon": 10000}
+dce = {"apple": 2000, "banana": 500, "melon": 10000}
 
-print(dc)
+print(dce)
 
 #keyを指定してvalueの値を出力する
-print(dc["apple"])
+print(dce["apple"])
 
 #辞書の長さを取得
-print(len(dc))
+print(len(dce))
 
 #空の辞書
 dc_enpty = {}
 
 #辞書に追加
 
-dc["lemon"] = 10800
-dc["melon"] = 100 * 300
-
-print(dc)
+dce["lemon"] = 10800
+dce["melon"] = 100 * 300
+print(dce)
 
 #辞書のkye.valueのみ取得
-print(dc.keys())
-print(dc.values())
+print(dce.keys())
+print(dce.values())
 
 #辞書をkey,valueを同時に取得
 
-print(dc.items())
+print(dce.items())
 
 
 #ループでアンパック(要素が２つあるリストなら２つの変数に格納すること?)
 
-for key, value in dc.items():
+for key, value in dce.items():
   print(key, value)
   
 #辞書のkeyとして含まれているか
-print("apple" in dc) #Trueが返ってくる
-print("ichigo" in dc) #Falseが返ってくる
+print("apple" in dce) #Trueが返ってくる
+print("ichigo" in dce) #Falseが返ってくる
 
 #辞書のキーをsort
 
-ke = sorted(dc)
+ke = sorted(dce)
 
 print(ke)
 
