@@ -23,3 +23,8 @@ def loop():
   print("正解")
 
 loop()
+
+def sum(a, b):
+  return a + b
+
+print(sum(10, 20))
