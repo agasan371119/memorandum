@@ -20,7 +20,7 @@ def num1_num2(a, b):
 print(num1_num2(5, 6))
 
 def loop():
-  print("正解")
+  print("good")
 
 loop()
 
