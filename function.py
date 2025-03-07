@@ -15,7 +15,7 @@ def num_and_cnt(x, y):
 print(num_and_cnt(3,2))
 
 def num1_num2(a, b):
-  return a ** b
+  return a % b
 
 print(num1_num2(5, 6))
 
