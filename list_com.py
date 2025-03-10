@@ -25,3 +25,13 @@ print(c)
 d = [x for x in range(10) if x % 2 == 0]
 
 print(d)
+
+#辞書
+#空の辞書
+dict = {}
+
+#繰り返し格納
+for i in range(5):
+  a, b = input().split()
+  dict[a] = int(b)
+print(dict)
