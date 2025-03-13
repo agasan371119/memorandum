@@ -28,14 +28,14 @@ print(d)
 
 #辞書
 #空の辞書
-dict = {}
+dict1 = {}
 
 #繰り返し格納
 for i in range(5):
   a, b = input().split()
-  dict[a] = int(b)
+  dict1[a] = int(b)
   
-print(dict)
+print(dict1)
 
 #辞書の内包表記
 dict_1 = [input().split() for x in range(5)]
