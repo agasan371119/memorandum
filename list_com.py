@@ -22,9 +22,9 @@ print(c)
 
 #リスト内包表記の条件式
 
-d = [x for x in range(10) if x % 2 == 0]
+dict = [x for x in range(10) if x % 2 == 0]
 
-print(d)
+print(dict)
 
 #辞書
 #空の辞書
