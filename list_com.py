@@ -31,7 +31,7 @@ print(dict)
 dict_1 = {}
 
 #繰り返し格納
-for i in range(5):
+for i in range(10):
   a, b = input().split()
   dict_1[a] = int(b)
   
