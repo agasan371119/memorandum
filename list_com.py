@@ -38,6 +38,6 @@ for i in range(5):
 print(dict_1)
 
 #辞書の内包表記
-dict_2 = [input().split() for x in range(5)]
+dict_2 = [input().split() for _ in range(5)]
 
 print(dict_2)
