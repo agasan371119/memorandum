@@ -22,7 +22,7 @@ print(c)
 
 #リスト内包表記の条件式
 
-dict = [x for _ in range(10) if x % 2 == 0]
+dict = [x for x in range(10) if x % 2 == 0]
 
 print(dict)
 
