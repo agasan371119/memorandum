@@ -22,7 +22,7 @@ print(c)
 
 #リスト内包表記の条件式
 
-dict = [x for x in range(10) if x % 2 == 0]
+dict = [x for xx in range(10) if x % 2 == 0]
 
 print(dict)
 
@@ -31,7 +31,7 @@ print(dict)
 dict_1 = {}
 
 #繰り返し格納
-for i in range(50):
+for i in range(10):
   a, b = input().split()
   dict_1[a] = int(b)
   
