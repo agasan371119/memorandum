@@ -7,7 +7,7 @@ for i in range(10):
 print(a)
 
 #リスト内包表記
-b = [x for _ in range(10)]
+b = [i for _ in range(10)]
 
 print(b)
 
@@ -22,7 +22,7 @@ print(c)
 
 #リスト内包表記の条件式
 
-dict = [x for xx in range(30) if x % 10 == 0]
+dict = [x for x in range(30) if i % 10 == 0]
 
 print(dict)
 
