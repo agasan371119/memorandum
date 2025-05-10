@@ -15,7 +15,7 @@ print(b)
 c = []
 
 for i in range(100):
-  if i % 70 == 0:
+  if i % 60 == 0:
     c.append(i)
 
 print(c)
